@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetAPIs.Minimal", "src\DotnetAPIs.Minimal\DotnetAPIs.Minimal.csproj", "{20FDD85E-F09A-49A4-83F8-C0DC3A9575BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetAPIs.Mvc", "src\DotnetAPIs.Mvc\DotnetAPIs.Mvc.csproj", "{D1A20F06-57B6-4401-9D18-10F0F98D3B89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetAPIs.FastEndpoints", "src\DotnetAPIs.FastEndpoints\DotnetAPIs.FastEndpoints.csproj", "{55B8B163-4D81-497C-8A5C-35D540B91E3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetAPIs.Carter", "src\DotnetAPIs.Carter\DotnetAPIs.Carter.csproj", "{E17D534D-8D7A-4CD5-AEF6-CC2E53CC5B8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hosts", "hosts", "{4CDFABED-04A9-4F33-B521-96D6573CA2B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetAPIs.Domain", "src\DotnetAPIs.Domain\DotnetAPIs.Domain.csproj", "{AE90BDE0-3F2F-4A58-853B-D43C6B1DFD40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "internals", "internals", "{FA2EB3B8-9FB6-4144-A65F-897DFD3E8A02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetAPIs.Infrastructure", "DotnetAPIs.Infrastructure\DotnetAPIs.Infrastructure.csproj", "{EE95491B-FE86-494F-B95D-74014FA5495F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20FDD85E-F09A-49A4-83F8-C0DC3A9575BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20FDD85E-F09A-49A4-83F8-C0DC3A9575BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20FDD85E-F09A-49A4-83F8-C0DC3A9575BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20FDD85E-F09A-49A4-83F8-C0DC3A9575BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1A20F06-57B6-4401-9D18-10F0F98D3B89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A20F06-57B6-4401-9D18-10F0F98D3B89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A20F06-57B6-4401-9D18-10F0F98D3B89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A20F06-57B6-4401-9D18-10F0F98D3B89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55B8B163-4D81-497C-8A5C-35D540B91E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55B8B163-4D81-497C-8A5C-35D540B91E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55B8B163-4D81-497C-8A5C-35D540B91E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55B8B163-4D81-497C-8A5C-35D540B91E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E17D534D-8D7A-4CD5-AEF6-CC2E53CC5B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E17D534D-8D7A-4CD5-AEF6-CC2E53CC5B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E17D534D-8D7A-4CD5-AEF6-CC2E53CC5B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E17D534D-8D7A-4CD5-AEF6-CC2E53CC5B8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE90BDE0-3F2F-4A58-853B-D43C6B1DFD40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE90BDE0-3F2F-4A58-853B-D43C6B1DFD40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE90BDE0-3F2F-4A58-853B-D43C6B1DFD40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE90BDE0-3F2F-4A58-853B-D43C6B1DFD40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE95491B-FE86-494F-B95D-74014FA5495F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE95491B-FE86-494F-B95D-74014FA5495F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE95491B-FE86-494F-B95D-74014FA5495F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE95491B-FE86-494F-B95D-74014FA5495F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E17D534D-8D7A-4CD5-AEF6-CC2E53CC5B8D} = {4CDFABED-04A9-4F33-B521-96D6573CA2B7}
+		{55B8B163-4D81-497C-8A5C-35D540B91E3E} = {4CDFABED-04A9-4F33-B521-96D6573CA2B7}
+		{20FDD85E-F09A-49A4-83F8-C0DC3A9575BD} = {4CDFABED-04A9-4F33-B521-96D6573CA2B7}
+		{D1A20F06-57B6-4401-9D18-10F0F98D3B89} = {4CDFABED-04A9-4F33-B521-96D6573CA2B7}
+		{AE90BDE0-3F2F-4A58-853B-D43C6B1DFD40} = {FA2EB3B8-9FB6-4144-A65F-897DFD3E8A02}
+		{EE95491B-FE86-494F-B95D-74014FA5495F} = {FA2EB3B8-9FB6-4144-A65F-897DFD3E8A02}
+	EndGlobalSection
+EndGlobal
