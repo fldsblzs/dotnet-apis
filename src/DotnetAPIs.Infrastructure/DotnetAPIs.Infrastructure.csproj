@@ -11,7 +11,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\src\DotnetAPIs.Domain\DotnetAPIs.Domain.csproj" />
+      <ProjectReference Include="..\DotnetAPIs.Domain\DotnetAPIs.Domain.csproj" />
     </ItemGroup>
 
 </Project>
